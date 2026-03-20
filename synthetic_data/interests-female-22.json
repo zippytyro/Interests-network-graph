@@ -1,0 +1,1266 @@
+{
+  "userProfile": {
+    "age": 22,
+    "gender": "female",
+    "interests": [
+      "fashion",
+      "lgbtq+",
+      "cars",
+      "travel",
+      "tattoos",
+      "pink",
+      "dj mixing",
+      "cartography",
+      "student",
+      "psychology",
+      "intimacy",
+      "healthy lifestyle",
+      "dancing",
+      "salsa"
+    ]
+  },
+  "clusters": {
+    "1": {
+      "name": "Fashion & Apparel",
+      "color": "#ec4899",
+      "theme": "Style & Self-Expression"
+    },
+    "2": {
+      "name": "LGBTQ+ Communities & Advocacy",
+      "color": "#f472b6",
+      "theme": "Pride & Inclusivity"
+    },
+    "3": {
+      "name": "Automotive & Lifestyle",
+      "color": "#374151",
+      "theme": "Speed & Freedom"
+    },
+    "4": {
+      "name": "Travel & Exploration",
+      "color": "#06b6d4",
+      "theme": "Adventure & Discovery"
+    },
+    "5": {
+      "name": "Body Art & Tattoo Culture",
+      "color": "#1f2937",
+      "theme": "Personal Expression"
+    },
+    "6": {
+      "name": "Music & DJ Culture",
+      "color": "#8b5cf6",
+      "theme": "Sound & Rhythm"
+    },
+    "7": {
+      "name": "Education & Psychology",
+      "color": "#3b82f6",
+      "theme": "Knowledge & Mind"
+    },
+    "8": {
+      "name": "Health & Wellness",
+      "color": "#10b981",
+      "theme": "Body & Spirit"
+    },
+    "9": {
+      "name": "Dance & Movement",
+      "color": "#f97316",
+      "theme": "Expression & Energy"
+    },
+    "10": {
+      "name": "Cartography & Design",
+      "color": "#6366f1",
+      "theme": "Maps & Creation"
+    }
+  },
+  "crossClusterConnections": [
+    { "cluster1": 1, "cluster2": 2 },
+    { "cluster1": 1, "cluster2": 5 },
+    { "cluster1": 2, "cluster2": 9 },
+    { "cluster1": 3, "cluster2": 4 },
+    { "cluster1": 4, "cluster2": 6 },
+    { "cluster1": 5, "cluster2": 8 },
+    { "cluster1": 6, "cluster2": 9 },
+    { "cluster1": 7, "cluster2": 8 },
+    { "cluster1": 8, "cluster2": 1 },
+    { "cluster1": 9, "cluster2": 6 },
+    { "cluster1": 10, "cluster2": 4 },
+    { "cluster1": 10, "cluster2": 1 }
+  ],
+  "interests": [
+    {
+      "label": "ASOS",
+      "group": 1,
+      "isHub": true,
+      "tags": ["fashion", "d2c", "pink"]
+    },
+    {
+      "label": "Revolve",
+      "group": 1,
+      "isHub": true,
+      "tags": ["fashion", "luxury", "style"]
+    },
+    {
+      "label": "Shein",
+      "group": 1,
+      "isHub": true,
+      "tags": ["fashion", "affordable", "trendy"]
+    },
+    {
+      "label": "Zara",
+      "group": 1,
+      "tags": ["fashion", "contemporary"]
+    },
+    {
+      "label": "H&M",
+      "group": 1,
+      "tags": ["fashion", "accessible"]
+    },
+    {
+      "label": "Urban Outfitters",
+      "group": 1,
+      "tags": ["fashion", "lifestyle", "culture"]
+    },
+    {
+      "label": "Depop",
+      "group": 1,
+      "tags": ["fashion", "sustainable", "secondhand"]
+    },
+    {
+      "label": "Vinted",
+      "group": 1,
+      "tags": ["fashion", "sustainable", "resale"]
+    },
+    {
+      "label": "Vestiaire Collective",
+      "group": 1,
+      "tags": ["fashion", "luxury", "vintage"]
+    },
+    {
+      "label": "Free People",
+      "group": 1,
+      "tags": ["fashion", "bohemian", "lifestyle"]
+    },
+    {
+      "label": "Reformation",
+      "group": 1,
+      "tags": ["fashion", "sustainable", "eco-friendly"]
+    },
+    {
+      "label": "Ganni",
+      "group": 1,
+      "tags": ["fashion", "contemporary", "danish"]
+    },
+    {
+      "label": "COS",
+      "group": 1,
+      "tags": ["fashion", "minimalist", "design"]
+    },
+    {
+      "label": "Uniqlo",
+      "group": 1,
+      "tags": ["fashion", "basics", "quality"]
+    },
+    {
+      "label": "Gap",
+      "group": 1,
+      "tags": ["fashion", "classic", "denim"]
+    },
+    {
+      "label": "Topshop",
+      "group": 1,
+      "tags": ["fashion", "trendy", "youth"]
+    },
+    {
+      "label": "ASOS Design",
+      "group": 1,
+      "tags": ["fashion", "exclusive", "affordable"]
+    },
+    {
+      "label": "Missguided",
+      "group": 1,
+      "tags": ["fashion", "bold", "edgy"]
+    },
+    {
+      "label": "PrettyLittleThing",
+      "group": 1,
+      "tags": ["fashion", "party", "glam"]
+    },
+    {
+      "label": "Boohoo",
+      "group": 1,
+      "tags": ["fashion", "affordable", "fast"]
+    },
+    {
+      "label": "Fashion Nova",
+      "group": 1,
+      "isHub": true,
+      "tags": ["fashion", "bold", "influencer"]
+    },
+    {
+      "label": "Nasty Gal",
+      "group": 1,
+      "tags": ["fashion", "edgy", "empowering"]
+    },
+    {
+      "label": "Urban Decay",
+      "group": 1,
+      "tags": ["fashion", "makeup", "edgy"]
+    },
+    {
+      "label": "KKW Beauty",
+      "group": 1,
+      "tags": ["fashion", "beauty", "luxury"]
+    },
+    {
+      "label": "Glossier",
+      "group": 1,
+      "isHub": true,
+      "tags": ["beauty", "minimalist", "lifestyle"]
+    },
+    {
+      "label": "MAC Cosmetics",
+      "group": 1,
+      "tags": ["beauty", "professional", "pigmented"]
+    },
+    {
+      "label": "Nykaa",
+      "group": 1,
+      "tags": ["beauty", "indian", "d2c"]
+    },
+    {
+      "label": "Charlotte Tilbury",
+      "group": 1,
+      "tags": ["beauty", "luxury", "professional"]
+    },
+    {
+      "label": "Sephora",
+      "group": 1,
+      "isHub": true,
+      "tags": ["beauty", "one-stop", "community"]
+    },
+    {
+      "label": "Urban Outfitters Beauty",
+      "group": 1,
+      "tags": ["beauty", "curated", "lifestyle"]
+    },
+    {
+      "label": "Trevor Project",
+      "group": 2,
+      "isHub": true,
+      "tags": ["lgbtq+", "crisis", "support"]
+    },
+    {
+      "label": "GLAAD",
+      "group": 2,
+      "isHub": true,
+      "tags": ["lgbtq+", "media", "advocacy"]
+    },
+    {
+      "label": "Human Rights Campaign",
+      "group": 2,
+      "isHub": true,
+      "tags": ["lgbtq+", "politics", "activism"]
+    },
+    {
+      "label": "Lambda Legal",
+      "group": 2,
+      "tags": ["lgbtq+", "law", "justice"]
+    },
+    {
+      "label": "PFLAG",
+      "group": 2,
+      "tags": ["lgbtq+", "families", "support"]
+    },
+    {
+      "label": "National Center for Transgender Equality",
+      "group": 2,
+      "tags": ["lgbtq+", "trans", "advocacy"]
+    },
+    {
+      "label": "Pride in Practice",
+      "group": 2,
+      "tags": ["lgbtq+", "mental health", "therapy"]
+    },
+    {
+      "label": "Sage USA",
+      "group": 2,
+      "tags": ["lgbtq+", "elders", "care"]
+    },
+    {
+      "label": "OkCupid",
+      "group": 2,
+      "isHub": true,
+      "tags": ["lgbtq+", "dating", "inclusive"]
+    },
+    {
+      "label": "Bumble",
+      "group": 2,
+      "isHub": true,
+      "tags": ["lgbtq+", "dating", "women-centered"]
+    },
+    {
+      "label": "Hinge",
+      "group": 2,
+      "tags": ["lgbtq+", "dating", "relationships"]
+    },
+    {
+      "label": "Grindr",
+      "group": 2,
+      "tags": ["lgbtq+", "gay", "social"]
+    },
+    {
+      "label": "Feeld",
+      "group": 2,
+      "isHub": true,
+      "tags": ["lgbtq+", "dating", "exploration"]
+    },
+    {
+      "label": "Lex",
+      "group": 2,
+      "tags": ["lgbtq+", "personal ads", "queer"]
+    },
+    {
+      "label": "Her",
+      "group": 2,
+      "tags": ["lgbtq+", "lesbian", "dating"]
+    },
+    {
+      "label": "Thirsty",
+      "group": 2,
+      "tags": ["lgbtq+", "app", "dating"]
+    },
+    {
+      "label": "Instagram LGBTQ+",
+      "group": 2,
+      "tags": ["lgbtq+", "community", "social"]
+    },
+    {
+      "label": "TikTok LGBTQ+",
+      "group": 2,
+      "isHub": true,
+      "tags": ["lgbtq+", "content", "youth"]
+    },
+    {
+      "label": "Out Magazine",
+      "group": 2,
+      "tags": ["lgbtq+", "media", "lifestyle"]
+    },
+    {
+      "label": "Advocate Magazine",
+      "group": 2,
+      "tags": ["lgbtq+", "media", "culture"]
+    },
+    {
+      "label": "Pride Worldwide",
+      "group": 2,
+      "tags": ["lgbtq+", "events", "community"]
+    },
+    {
+      "label": "Tesla",
+      "group": 3,
+      "isHub": true,
+      "tags": ["cars", "ev", "future"]
+    },
+    {
+      "label": "Porsche",
+      "group": 3,
+      "isHub": true,
+      "tags": ["cars", "luxury", "performance"]
+    },
+    {
+      "label": "BMW",
+      "group": 3,
+      "tags": ["cars", "luxury", "engineering"]
+    },
+    {
+      "label": "Audi",
+      "group": 3,
+      "tags": ["cars", "luxury", "design"]
+    },
+    {
+      "label": "Mercedes-Benz",
+      "group": 3,
+      "isHub": true,
+      "tags": ["cars", "luxury", "heritage"]
+    },
+    {
+      "label": "Ferrari",
+      "group": 3,
+      "isHub": true,
+      "tags": ["cars", "luxury", "speed"]
+    },
+    {
+      "label": "Lamborghini",
+      "group": 3,
+      "tags": ["cars", "luxury", "extreme"]
+    },
+    {
+      "label": "Jaguar",
+      "group": 3,
+      "tags": ["cars", "luxury", "british"]
+    },
+    {
+      "label": "Range Rover",
+      "group": 3,
+      "tags": ["cars", "luxury", "suv"]
+    },
+    {
+      "label": "Bentley",
+      "group": 3,
+      "tags": ["cars", "ultra-luxury", "exclusive"]
+    },
+    {
+      "label": "Rolls-Royce",
+      "group": 3,
+      "tags": ["cars", "ultra-luxury", "bespoke"]
+    },
+    {
+      "label": "Bugatti",
+      "group": 3,
+      "tags": ["cars", "hypersupercar", "extreme"]
+    },
+    {
+      "label": "Pagani",
+      "group": 3,
+      "tags": ["cars", "hypercar", "italian"]
+    },
+    {
+      "label": "Koenigsegg",
+      "group": 3,
+      "tags": ["cars", "hypercar", "swedish"]
+    },
+    {
+      "label": "Rimac Automobili",
+      "group": 3,
+      "tags": ["cars", "electric", "hypercar"]
+    },
+    {
+      "label": "Lucid Motors",
+      "group": 3,
+      "tags": ["cars", "ev", "luxury"]
+    },
+    {
+      "label": "Polestar",
+      "group": 3,
+      "tags": ["cars", "ev", "performance"]
+    },
+    {
+      "label": "Rivian",
+      "group": 3,
+      "tags": ["cars", "ev", "adventure"]
+    },
+    {
+      "label": "Volvo",
+      "group": 3,
+      "tags": ["cars", "safety", "design"]
+    },
+    {
+      "label": "Aston Martin",
+      "group": 3,
+      "tags": ["cars", "luxury", "british"]
+    },
+    {
+      "label": "Maserati",
+      "group": 3,
+      "tags": ["cars", "luxury", "italian"]
+    },
+    {
+      "label": "Alfa Romeo",
+      "group": 3,
+      "tags": ["cars", "luxury", "heritage"]
+    },
+    {
+      "label": "Moto Guzzi",
+      "group": 3,
+      "tags": ["motorcycles", "heritage", "italian"]
+    },
+    {
+      "label": "Harley-Davidson",
+      "group": 3,
+      "tags": ["motorcycles", "iconic", "american"]
+    },
+    {
+      "label": "Ducati",
+      "group": 3,
+      "tags": ["motorcycles", "performance", "italian"]
+    },
+    {
+      "label": "Bookmyshow",
+      "group": 4,
+      "isHub": true,
+      "tags": ["travel", "events", "experiences"]
+    },
+    {
+      "label": "Booking.com",
+      "group": 4,
+      "isHub": true,
+      "tags": ["travel", "accommodation", "bookings"]
+    },
+    {
+      "label": "Airbnb",
+      "group": 4,
+      "isHub": true,
+      "tags": ["travel", "homes", "experiences"]
+    },
+    {
+      "label": "Agoda",
+      "group": 4,
+      "tags": ["travel", "asia", "deals"]
+    },
+    {
+      "label": "Expedia",
+      "group": 4,
+      "tags": ["travel", "flights", "packages"]
+    },
+    {
+      "label": "Kayak",
+      "group": 4,
+      "tags": ["travel", "search", "compare"]
+    },
+    {
+      "label": "MakeMyTrip",
+      "group": 4,
+      "isHub": true,
+      "tags": ["travel", "indian", "all-in-one"]
+    },
+    {
+      "label": "Skyscanner",
+      "group": 4,
+      "tags": ["travel", "flights", "cheap"]
+    },
+    {
+      "label": "Trivago",
+      "group": 4,
+      "tags": ["travel", "hotels", "compare"]
+    },
+    {
+      "label": "Klook",
+      "group": 4,
+      "isHub": true,
+      "tags": ["travel", "activities", "asia"]
+    },
+    {
+      "label": "Viator",
+      "group": 4,
+      "tags": ["travel", "tours", "experiences"]
+    },
+    {
+      "label": "ToursByLocals",
+      "group": 4,
+      "tags": ["travel", "local", "guides"]
+    },
+    {
+      "label": "Airbnb Experiences",
+      "group": 4,
+      "tags": ["travel", "unique", "activities"]
+    },
+    {
+      "label": "Thrillophilia",
+      "group": 4,
+      "tags": ["travel", "adventure", "india"]
+    },
+    {
+      "label": "Wanderlust",
+      "group": 4,
+      "tags": ["travel", "inspiration", "magazine"]
+    },
+    {
+      "label": "National Geographic Travel",
+      "group": 4,
+      "tags": ["travel", "exploration", "education"]
+    },
+    {
+      "label": "Lonely Planet",
+      "group": 4,
+      "tags": ["travel", "guides", "community"]
+    },
+    {
+      "label": "Travel + Leisure",
+      "group": 4,
+      "tags": ["travel", "luxury", "lifestyle"]
+    },
+    {
+      "label": "Condé Nast Traveler",
+      "group": 4,
+      "tags": ["travel", "luxury", "inspiration"]
+    },
+    {
+      "label": "Moon Travel Guides",
+      "group": 4,
+      "tags": ["travel", "guides", "indie"]
+    },
+    {
+      "label": "Culture Trip",
+      "group": 4,
+      "tags": ["travel", "culture", "city-guides"]
+    },
+    {
+      "label": "Tattoo Culture Magazine",
+      "group": 5,
+      "isHub": true,
+      "tags": ["tattoos", "art", "inspiration"]
+    },
+    {
+      "label": "Bang Bang NYC",
+      "group": 5,
+      "isHub": true,
+      "tags": ["tattoos", "studio", "celebrity"]
+    },
+    {
+      "label": "Kings Avenue Tattoo",
+      "group": 5,
+      "tags": ["tattoos", "studio", "london"]
+    },
+    {
+      "label": "Saved Tattoo London",
+      "group": 5,
+      "tags": ["tattoos", "iconic", "historic"]
+    },
+    {
+      "label": "Shamrock Tattoo NYC",
+      "group": 5,
+      "tags": ["tattoos", "studio", "nyc"]
+    },
+    {
+      "label": "Tattoo Convention Circuit",
+      "group": 5,
+      "tags": ["tattoos", "events", "community"]
+    },
+    {
+      "label": "Instagram Tattoo Artists",
+      "group": 5,
+      "isHub": true,
+      "tags": ["tattoos", "social", "inspiration"]
+    },
+    {
+      "label": "TikTok Tattoo Artists",
+      "group": 5,
+      "tags": ["tattoos", "trends", "viral"]
+    },
+    {
+      "label": "Tattoo Aftercare Products",
+      "group": 5,
+      "tags": ["tattoos", "care", "maintenance"]
+    },
+    {
+      "label": "Conscious Ink",
+      "group": 5,
+      "tags": ["tattoos", "vegan", "ethical"]
+    },
+    {
+      "label": "Sacred Tattoo",
+      "group": 5,
+      "tags": ["tattoos", "spiritual", "meaning"]
+    },
+    {
+      "label": "Mister Cartoon",
+      "group": 5,
+      "tags": ["tattoos", "artist", "legendary"]
+    },
+    {
+      "label": "Dr. Woo",
+      "group": 5,
+      "isHub": true,
+      "tags": ["tattoos", "artist", "minimal"]
+    },
+    {
+      "label": "Minimalist Tattoo Designs",
+      "group": 5,
+      "tags": ["tattoos", "style", "aesthetic"]
+    },
+    {
+      "label": "Watercolor Tattoo Artists",
+      "group": 5,
+      "tags": ["tattoos", "style", "artistic"]
+    },
+    {
+      "label": "Fine Line Tattoo Movement",
+      "group": 5,
+      "tags": ["tattoos", "style", "delicate"]
+    },
+    {
+      "label": "Seize the Day Tattoo",
+      "group": 5,
+      "tags": ["tattoos", "quotes", "meaningful"]
+    },
+    {
+      "label": "Technics Turntables",
+      "group": 6,
+      "isHub": true,
+      "tags": ["dj", "equipment", "professional"]
+    },
+    {
+      "label": "Pioneer DJ Equipment",
+      "group": 6,
+      "isHub": true,
+      "tags": ["dj", "equipment", "industry-standard"]
+    },
+    {
+      "label": "Numark DJ Gear",
+      "group": 6,
+      "tags": ["dj", "equipment", "accessible"]
+    },
+    {
+      "label": "Native Instruments",
+      "group": 6,
+      "tags": ["dj", "software", "production"]
+    },
+    {
+      "label": "Serato DJ Software",
+      "group": 6,
+      "isHub": true,
+      "tags": ["dj", "software", "scratch"]
+    },
+    {
+      "label": "Rekordbox",
+      "group": 6,
+      "tags": ["dj", "software", "pioneer"]
+    },
+    {
+      "label": "Virtual DJ",
+      "group": 6,
+      "tags": ["dj", "software", "beginner-friendly"]
+    },
+    {
+      "label": "Ableton Live",
+      "group": 6,
+      "tags": ["music", "production", "live"]
+    },
+    {
+      "label": "Logic Pro",
+      "group": 6,
+      "tags": ["music", "production", "apple"]
+    },
+    {
+      "label": "Traktor Pro",
+      "group": 6,
+      "tags": ["dj", "software", "native-instruments"]
+    },
+    {
+      "label": "DJ Mag",
+      "group": 6,
+      "isHub": true,
+      "tags": ["dj", "magazine", "culture"]
+    },
+    {
+      "label": "DJ TechTools",
+      "group": 6,
+      "tags": ["dj", "equipment", "reviews"]
+    },
+    {
+      "label": "Resident Advisor",
+      "group": 6,
+      "isHub": true,
+      "tags": ["dj", "events", "community"]
+    },
+    {
+      "label": "BeatPort",
+      "group": 6,
+      "isHub": true,
+      "tags": ["music", "tracks", "dj-focused"]
+    },
+    {
+      "label": "SoundCloud",
+      "group": 6,
+      "tags": ["music", "platform", "community"]
+    },
+    {
+      "label": "Spotify DJ Playlists",
+      "group": 6,
+      "tags": ["music", "streaming", "curation"]
+    },
+    {
+      "label": "Deezer",
+      "group": 6,
+      "tags": ["music", "streaming", "global"]
+    },
+    {
+      "label": "DJ School Online",
+      "group": 6,
+      "tags": ["dj", "education", "courses"]
+    },
+    {
+      "label": "Udemy DJ Courses",
+      "group": 6,
+      "tags": ["dj", "education", "affordable"]
+    },
+    {
+      "label": "DJ Boot Camp",
+      "group": 6,
+      "tags": ["dj", "education", "intensive"]
+    },
+    {
+      "label": "RBMA (Red Bull Music Academy)",
+      "group": 6,
+      "isHub": true,
+      "tags": ["music", "education", "prestigious"]
+    },
+    {
+      "label": "Berklee College of Music - DJ Program",
+      "group": 6,
+      "tags": ["music", "education", "formal"]
+    },
+    {
+      "label": "Higher Learning",
+      "group": 7,
+      "isHub": true,
+      "tags": ["education", "psychology", "online"]
+    },
+    {
+      "label": "Coursera",
+      "group": 7,
+      "isHub": true,
+      "tags": ["education", "psychology", "mooc"]
+    },
+    {
+      "label": "Udemy",
+      "group": 7,
+      "tags": ["education", "courses", "affordable"]
+    },
+    {
+      "label": "edX",
+      "group": 7,
+      "tags": ["education", "mooc", "academic"]
+    },
+    {
+      "label": "Khan Academy",
+      "group": 7,
+      "tags": ["education", "free", "comprehensive"]
+    },
+    {
+      "label": "Harvard University",
+      "group": 7,
+      "tags": ["education", "psychology", "prestigious"]
+    },
+    {
+      "label": "MIT OpenCourseWare",
+      "group": 7,
+      "tags": ["education", "free", "quality"]
+    },
+    {
+      "label": "Stanford Online",
+      "group": 7,
+      "tags": ["education", "psychology", "research"]
+    },
+    {
+      "label": "Yale Open Courses",
+      "group": 7,
+      "tags": ["education", "psychology", "liberal-arts"]
+    },
+    {
+      "label": "Psychology Today",
+      "group": 7,
+      "isHub": true,
+      "tags": ["psychology", "therapy", "resources"]
+    },
+    {
+      "label": "TherapyDen",
+      "group": 7,
+      "tags": ["psychology", "therapy", "online"]
+    },
+    {
+      "label": "BetterHelp",
+      "group": 7,
+      "isHub": true,
+      "tags": ["psychology", "therapy", "accessible"]
+    },
+    {
+      "label": "Talkspace",
+      "group": 7,
+      "tags": ["psychology", "therapy", "messaging"]
+    },
+    {
+      "label": "OpenPath Collective",
+      "group": 7,
+      "tags": ["psychology", "therapy", "affordable"]
+    },
+    {
+      "label": "The Good Men Project",
+      "group": 7,
+      "tags": ["psychology", "culture", "discussion"]
+    },
+    {
+      "label": "Mindful Magazine",
+      "group": 7,
+      "tags": ["psychology", "mindfulness", "wellness"]
+    },
+    {
+      "label": "Carl Jung Institute",
+      "group": 7,
+      "tags": ["psychology", "analytical", "depth"]
+    },
+    {
+      "label": "American Psychological Association",
+      "group": 7,
+      "isHub": true,
+      "tags": ["psychology", "professional", "research"]
+    },
+    {
+      "label": "PubMed Central",
+      "group": 7,
+      "tags": ["education", "research", "academic"]
+    },
+    {
+      "label": "JSTOR",
+      "group": 7,
+      "tags": ["education", "research", "archive"]
+    },
+    {
+      "label": "LinkedIn Learning",
+      "group": 7,
+      "tags": ["education", "professional", "skills"]
+    },
+    {
+      "label": "Skillshare",
+      "group": 7,
+      "tags": ["education", "creative", "community"]
+    },
+    {
+      "label": "Whoop",
+      "group": 8,
+      "isHub": true,
+      "tags": ["wellness", "fitness", "wearable"]
+    },
+    {
+      "label": "Fitbit",
+      "group": 8,
+      "isHub": true,
+      "tags": ["wellness", "fitness", "tracking"]
+    },
+    {
+      "label": "Apple Watch",
+      "group": 8,
+      "tags": ["wellness", "technology", "ecosystem"]
+    },
+    {
+      "label": "Oura Ring",
+      "group": 8,
+      "tags": ["wellness", "sleep", "biometric"]
+    },
+    {
+      "label": "Garmin",
+      "group": 8,
+      "tags": ["wellness", "sports", "gps"]
+    },
+    {
+      "label": "Peloton",
+      "group": 8,
+      "isHub": true,
+      "tags": ["fitness", "cycling", "community"]
+    },
+    {
+      "label": "Cult.fit",
+      "group": 8,
+      "isHub": true,
+      "tags": ["fitness", "indian", "holistic"]
+    },
+    {
+      "label": "Strava",
+      "group": 8,
+      "tags": ["fitness", "community", "running"]
+    },
+    {
+      "label": "MyFitnessPal",
+      "group": 8,
+      "tags": ["wellness", "nutrition", "tracking"]
+    },
+    {
+      "label": "Headspace",
+      "group": 8,
+      "isHub": true,
+      "tags": ["wellness", "meditation", "mindfulness"]
+    },
+    {
+      "label": "Calm",
+      "group": 8,
+      "isHub": true,
+      "tags": ["wellness", "sleep", "meditation"]
+    },
+    {
+      "label": "Insight Timer",
+      "group": 8,
+      "tags": ["wellness", "meditation", "free"]
+    },
+    {
+      "label": "Ten Percent Happier",
+      "group": 8,
+      "tags": ["wellness", "meditation", "secular"]
+    },
+    {
+      "label": "Gaia",
+      "group": 8,
+      "tags": ["wellness", "yoga", "mindfulness"]
+    },
+    {
+      "label": "Yoga with Adriene",
+      "group": 8,
+      "tags": ["wellness", "yoga", "youtube"]
+    },
+    {
+      "label": "Hims",
+      "group": 8,
+      "tags": ["wellness", "telehealth", "accessible"]
+    },
+    {
+      "label": "Ro",
+      "group": 8,
+      "tags": ["wellness", "telehealth", "modern"]
+    },
+    {
+      "label": "Roman",
+      "group": 8,
+      "tags": ["wellness", "men's health", "telehealth"]
+    },
+    {
+      "label": "Nurx",
+      "group": 8,
+      "tags": ["wellness", "birth control", "discreet"]
+    },
+    {
+      "label": "Athletic Greens",
+      "group": 8,
+      "tags": ["wellness", "nutrition", "supplements"]
+    },
+    {
+      "label": "Ritual",
+      "group": 8,
+      "tags": ["wellness", "vitamins", "minimal"]
+    },
+    {
+      "label": "Oura",
+      "group": 8,
+      "tags": ["wellness", "sleep", "biometric"]
+    },
+    {
+      "label": "Openfit",
+      "group": 8,
+      "tags": ["fitness", "streaming", "affordable"]
+    },
+    {
+      "label": "Apple Fitness+",
+      "group": 8,
+      "tags": ["fitness", "ecosystem", "premium"]
+    },
+    {
+      "label": "Lululemon Mirror",
+      "group": 8,
+      "tags": ["fitness", "home", "premium"]
+    },
+    {
+      "label": "F45 Training",
+      "group": 8,
+      "tags": ["fitness", "functional", "franchise"]
+    },
+    {
+      "label": "Barry's",
+      "group": 8,
+      "tags": ["fitness", "hiit", "premium"]
+    },
+    {
+      "label": "SoulCycle",
+      "group": 8,
+      "tags": ["fitness", "cycling", "community"]
+    },
+    {
+      "label": "Swing House",
+      "group": 9,
+      "isHub": true,
+      "tags": ["dance", "salsa", "community"]
+    },
+    {
+      "label": "DancePlug",
+      "group": 9,
+      "isHub": true,
+      "tags": ["dance", "platform", "global"]
+    },
+    {
+      "label": "Salsa Lovers Community",
+      "group": 9,
+      "tags": ["dance", "salsa", "social"]
+    },
+    {
+      "label": "Cuban Salsa Culture",
+      "group": 9,
+      "isHub": true,
+      "tags": ["dance", "salsa", "heritage"]
+    },
+    {
+      "label": "Latin Dance Federation",
+      "group": 9,
+      "tags": ["dance", "salsa", "competitive"]
+    },
+    {
+      "label": "Ballroom Dance Channel",
+      "group": 9,
+      "tags": ["dance", "lessons", "youtube"]
+    },
+    {
+      "label": "DancePlus (Indian)",
+      "group": 9,
+      "isHub": true,
+      "tags": ["dance", "indian", "reality-show"]
+    },
+    {
+      "label": "So You Think You Can Dance",
+      "group": 9,
+      "tags": ["dance", "competition", "mainstream"]
+    },
+    {
+      "label": "World Dance Festival Circuit",
+      "group": 9,
+      "tags": ["dance", "events", "travel"]
+    },
+    {
+      "label": "Dance Spirit Magazine",
+      "group": 9,
+      "tags": ["dance", "magazine", "culture"]
+    },
+    {
+      "label": "TikTok Dance Community",
+      "group": 9,
+      "isHub": true,
+      "tags": ["dance", "trends", "viral"]
+    },
+    {
+      "label": "Instagram Dancers",
+      "group": 9,
+      "tags": ["dance", "social", "content"]
+    },
+    {
+      "label": "Dance Cardio Classes",
+      "group": 9,
+      "tags": ["dance", "fitness", "fun"]
+    },
+    {
+      "label": "Zumba",
+      "group": 9,
+      "isHub": true,
+      "tags": ["dance", "fitness", "latin"]
+    },
+    {
+      "label": "Freestyle Dance",
+      "group": 9,
+      "tags": ["dance", "expression", "urban"]
+    },
+    {
+      "label": "Pole Dance Community",
+      "group": 9,
+      "tags": ["dance", "athletic", "empowering"]
+    },
+    {
+      "label": "Ballet Online",
+      "group": 9,
+      "tags": ["dance", "classical", "discipline"]
+    },
+    {
+      "label": "Contemporary Dance",
+      "group": 9,
+      "tags": ["dance", "artistic", "expressive"]
+    },
+    {
+      "label": "Google Maps",
+      "group": 10,
+      "isHub": true,
+      "tags": ["cartography", "navigation", "ubiquitous"]
+    },
+    {
+      "label": "OpenStreetMap",
+      "group": 10,
+      "isHub": true,
+      "tags": ["cartography", "open-source", "community"]
+    },
+    {
+      "label": "ArcGIS",
+      "group": 10,
+      "tags": ["cartography", "professional", "enterprise"]
+    },
+    {
+      "label": "QGIS",
+      "group": 10,
+      "tags": ["cartography", "open-source", "free"]
+    },
+    {
+      "label": "Mapbox",
+      "group": 10,
+      "isHub": true,
+      "tags": ["cartography", "design", "api"]
+    },
+    {
+      "label": "Adobe Illustrator",
+      "group": 10,
+      "tags": ["design", "vector", "professional"]
+    },
+    {
+      "label": "Figma",
+      "group": 10,
+      "isHub": true,
+      "tags": ["design", "collaborative", "web"]
+    },
+    {
+      "label": "Procreate",
+      "group": 10,
+      "tags": ["design", "digital-art", "ipad"]
+    },
+    {
+      "label": "Sketch",
+      "group": 10,
+      "tags": ["design", "ui/ux", "mac"]
+    },
+    {
+      "label": "Adobe XD",
+      "group": 10,
+      "tags": ["design", "ui/ux", "prototyping"]
+    },
+    {
+      "label": "Canva",
+      "group": 10,
+      "isHub": true,
+      "tags": ["design", "accessible", "templates"]
+    },
+    {
+      "label": "Affinity Designer",
+      "group": 10,
+      "tags": ["design", "professional", "affordable"]
+    },
+    {
+      "label": "Notion",
+      "group": 10,
+      "isHub": true,
+      "tags": ["design", "productivity", "creative"]
+    },
+    {
+      "label": "Miro",
+      "group": 10,
+      "tags": ["design", "collaboration", "brainstorm"]
+    },
+    {
+      "label": "Dribbble",
+      "group": 10,
+      "tags": ["design", "portfolio", "community"]
+    },
+    {
+      "label": "Behance",
+      "group": 10,
+      "tags": ["design", "portfolio", "professional"]
+    },
+    {
+      "label": "Design School Worldwide",
+      "group": 10,
+      "tags": ["design", "education", "online"]
+    },
+    {
+      "label": "Skillshare Design Courses",
+      "group": 10,
+      "tags": ["design", "education", "affordable"]
+    },
+    {
+      "label": "Blender",
+      "group": 10,
+      "tags": ["design", "3d", "free"]
+    },
+    {
+      "label": "Cinema 4D",
+      "group": 10,
+      "tags": ["design", "3d", "professional"]
+    }
+  ]
+}
