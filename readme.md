@@ -27,7 +27,7 @@ Interests Network Graph was inspired by a talk on user embeddings. This experime
 
 Use Meta Accounts Center to request your information download.
 
-1. Go to Accounts Center in Instagram or Facebook.
+1. Go to Accounts Center in Instagram or Facebook. ([facebook](https://www.facebook.com/help/212802592074644)) & ([Instagram](https://help.instagram.com/181231772500920))
 2. Open Your information and permissions.
 3. Choose Download your information.
 4. Select your account (Instagram or Facebook).
